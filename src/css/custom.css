@@ -1,0 +1,27 @@
+/**
+ * Custom styles. Tweak colors here to match your group's branding.
+ * TODO: Set your brand colors.
+ */
+
+:root {
+  --ifm-color-primary: #a259f7;
+  --ifm-color-primary-dark: #8f3ff5;
+  --ifm-color-primary-darker: #8633f4;
+  --ifm-color-primary-darkest: #6f1fd6;
+  --ifm-color-primary-light: #b571f9;
+  --ifm-color-primary-lighter: #bd7dfa;
+  --ifm-color-primary-lightest: #d3a3fc;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #c084fc;
+  --ifm-color-primary-dark: #a855f7;
+  --ifm-color-primary-darker: #9333ea;
+  --ifm-color-primary-darkest: #7e22ce;
+  --ifm-color-primary-light: #d8b4fe;
+  --ifm-color-primary-lighter: #e9d5ff;
+  --ifm-color-primary-lightest: #f3e8ff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
