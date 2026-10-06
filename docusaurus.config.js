@@ -7,7 +7,7 @@ const config = {
   tagline: 'Staff handbooks for our Discord & VRChat little space community',
   favicon: 'img/favicon.svg',
 
-  // Production values for GitHub Pages at https://poos241.github.io/Staff-handbooks/
+  // GitHub Pages deployment
   url: 'https://poos241.github.io',
   baseUrl: '/Staff-handbooks/',
 
@@ -21,6 +21,20 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        docsRouteBasePath: '/',
+        highlightSearchTermsOnTargetPage: true,
+        searchResultLimits: 8,
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -42,6 +56,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
         // TODO: Replace with your group's name
         title: 'Staff Handbooks',
