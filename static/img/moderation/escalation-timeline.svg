@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="420" viewBox="0 0 980 420" font-family="'gg sans','Helvetica Neue',Arial,sans-serif">
+  <defs>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#a259f7"/>
+    </marker>
+    <style>
+      .node { fill: #2b2d31; stroke: #a259f7; stroke-width: 2; }
+      .node-warn { fill: #2b2d31; stroke: #f0b232; stroke-width: 2; }
+      .node-red { fill: #2b2d31; stroke: #ed4245; stroke-width: 2; }
+      .node-green { fill: #2b2d31; stroke: #57f287; stroke-width: 2; }
+      .title { fill: #ffffff; font-size: 15px; font-weight: 700; }
+      .text { fill: #dbdee1; font-size: 12.5px; }
+      .small { fill: #b5bac1; font-size: 11.5px; }
+      .line { stroke: #a259f7; stroke-width: 2.5; }
+      .tlabel { fill: #a259f7; font-size: 12px; font-weight: 800; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="980" height="420" rx="16" fill="#1e1f22"/>
+  <text x="490" y="42" text-anchor="middle" fill="#ffffff" font-size="21" font-weight="800">Ticket Acknowledgment &amp; Escalation</text>
+
+  <!-- Timeline line -->
+  <line x1="60" y1="200" x2="920" y2="200" class="line"/>
+
+  <!-- Node 1 -->
+  <circle cx="110" cy="200" r="14" fill="#a259f7"/>
+  <text x="110" y="206" text-anchor="middle" fill="#fff" font-size="15" font-weight="800">1</text>
+  <rect x="20" y="70" width="180" height="100" rx="12" class="node"/>
+  <text x="110" y="98" text-anchor="middle" class="title">Action taken</text>
+  <text x="110" y="120" text-anchor="middle" class="text">Open a ticket, state the</text>
+  <text x="110" y="138" text-anchor="middle" class="text">action clearly, and ask</text>
+  <text x="110" y="156" text-anchor="middle" class="text">the user to acknowledge.</text>
+  <line x1="110" y1="170" x2="110" y2="186" class="line"/>
+
+  <!-- Node 2 -->
+  <circle cx="330" cy="200" r="14" fill="#a259f7"/>
+  <text x="330" y="206" text-anchor="middle" fill="#fff" font-size="15" font-weight="800">2</text>
+  <rect x="240" y="70" width="180" height="100" rx="12" class="node"/>
+  <text x="330" y="98" text-anchor="middle" class="title">No response?</text>
+  <text x="330" y="120" text-anchor="middle" class="text">Wait 2 days, then ping</text>
+  <text x="330" y="138" text-anchor="middle" class="text">them once in the ticket</text>
+  <text x="330" y="156" text-anchor="middle" class="text">as a follow-up.</text>
+  <line x1="330" y1="170" x2="330" y2="186" class="line"/>
+  <text x="220" y="192" text-anchor="middle" class="tlabel">+2 days</text>
+
+  <!-- Node 3 -->
+  <circle cx="550" cy="200" r="14" fill="#f0b232"/>
+  <text x="550" y="206" text-anchor="middle" fill="#1e1f22" font-size="15" font-weight="800">3</text>
+  <rect x="460" y="70" width="180" height="100" rx="12" class="node-warn"/>
+  <text x="550" y="98" text-anchor="middle" class="title">Still silent?</text>
+  <text x="550" y="120" text-anchor="middle" class="text">If no reply within 24h</text>
+  <text x="550" y="138" text-anchor="middle" class="text">of the ping, you may</text>
+  <text x="550" y="156" text-anchor="middle" class="text">escalate one category.</text>
+  <line x1="550" y1="170" x2="550" y2="186" class="line"/>
+  <text x="440" y="192" text-anchor="middle" class="tlabel">+24 hours</text>
+
+  <!-- Node 4 -->
+  <circle cx="770" cy="200" r="14" fill="#ed4245"/>
+  <text x="770" y="206" text-anchor="middle" fill="#fff" font-size="15" font-weight="800">4</text>
+  <rect x="680" y="70" width="180" height="100" rx="12" class="node-red"/>
+  <text x="770" y="98" text-anchor="middle" class="title">Escalate &amp; close</text>
+  <text x="770" y="120" text-anchor="middle" class="text">E.g. informal warning →</text>
+  <text x="770" y="138" text-anchor="middle" class="text">formal warning. State it</text>
+  <text x="770" y="156" text-anchor="middle" class="text">in the ticket, then close.</text>
+  <line x1="770" y1="170" x2="770" y2="186" class="line"/>
+
+  <!-- Bottom notes -->
+  <rect x="60" y="250" width="860" height="120" rx="12" fill="#2b2d31" stroke="#3a3d44" stroke-width="1.5"/>
+  <text x="90" y="282" class="title" font-size="14">Remember</text>
+  <text x="90" y="306" class="small">• Always give a clear reason when closing any ticket — it keeps case histories transparent.</text>
+  <text x="90" y="330" class="small">• Escalation is at your discretion: match the punishment to the situation, not just the silence.</text>
+  <text x="90" y="354" class="small">• Ping users in the message after adding them so they actually see the ticket.</text>
+
+  <text x="490" y="400" text-anchor="middle" fill="#6d6f78" font-size="12">Little Haven — Moderation Handbook</text>
+</svg>

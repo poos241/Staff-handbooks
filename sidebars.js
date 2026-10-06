@@ -23,6 +23,18 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Moderation Handbook',
+      link: { type: 'doc', id: 'moderation/index' },
+      items: [
+        'moderation/rules-and-guidelines',
+        'moderation/mod-commands',
+        'moderation/procedures',
+        'moderation/informing-members',
+        'moderation/quick-reference',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Event Staff Handbook',
       link: { type: 'doc', id: 'event-staff/index' },
       items: [

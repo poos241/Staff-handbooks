@@ -16,6 +16,11 @@ const handbooks = [
     link: '/server-staff/',
   },
   {
+    title: 'Moderation Handbook',
+    description: 'The full Little Haven moderation guide — rules, commands, procedures, and case handling.',
+    link: '/moderation/',
+  },
+  {
     title: 'Event Staff Handbook',
     description: 'Everything for event hosts and event security.',
     link: '/event-staff/',
