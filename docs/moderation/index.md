@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Moderation Handbook
 
+![Moderation hero banner](/img/moderation/moderation-hero.jpg)
+
 :::danger Do not share this handbook
 
 Do not share this handbook with anyone outside of the Little Haven moderation team or Little Haven management. Doing so may result in a formal warning, sanction, or immediate removal from the moderation team. This handbook is kept private so that security within the moderation team stays as high as possible. If you suspect it has been shared, contact the Head Moderator immediately.

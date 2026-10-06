@@ -11,10 +11,17 @@ While each situation can be unique, we follow general procedures to keep things 
 Treat these steps as a guide. Use your judgment when needed, and always act with fairness, clarity, and the community's safety in mind.
 :::
 
-:::info Visual reference
+## Punishment Ladder
 
-An image version of the moderation guidelines is pinned in the staff channels and can be used as a helpful quick reference alongside this page.
-:::
+The table below is the quick-reference version of the moderation guidelines — which punishment follows which offense, and how repeat offenses escalate.
+
+![Rule break actions and punishments table](/img/moderation/punishment-table.png)
+
+Key notes from the table:
+
+- **Timeouts** apply to both the server and events.
+- Showing **disrespect about a punishment** moves you to the next highest offense's punishment.
+- Members **under 16** are kicked, with a chance to come back when they turn 16.
 
 ## Timeout Procedure
 

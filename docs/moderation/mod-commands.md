@@ -34,6 +34,8 @@ Only use mod commands when you are **absolutely sure** it is the correct action 
 
 ### 🎫 Tickets
 
+![Tickets section icon](/img/moderation/icon-tickets.png)
+
 | Command | What it does |
 |---|---|
 | `/open` | Opens a ticket (or use the button in `#open-a-ticket`). Remember to **claim** the ticket. |
@@ -46,6 +48,8 @@ Only use mod commands when you are **absolutely sure** it is the correct action 
 | `/remindme :time` | Set reminders for user responses or follow-ups. *(Dyno bot)* |
 
 ### 🔨 Moderation
+
+![Moderation section icon](/img/moderation/icon-moderation.png)
 
 | Command | What it does |
 |---|---|
@@ -63,3 +67,7 @@ Only use mod commands when you are **absolutely sure** it is the correct action 
 
 Case numbers increment per action — e.g. `Case # ^` means the action is logged as **Case #1**.
 :::
+
+Here's what that looks like in the Havenly Bot modlog — the red arrow points to the case number:
+
+![Havenly Bot moderation log showing Case #1](/img/moderation/modlog-case-example.png)
