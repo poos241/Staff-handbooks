@@ -7,15 +7,12 @@ const config = {
   tagline: 'Staff handbooks for our Discord & VRChat little space community',
   favicon: 'img/favicon.svg',
 
-  // TODO: Set these to your production values before deploying.
-  // For GitHub Pages at https://<username>.github.io/<repo>/ :
-  //   url: 'https://<username>.github.io',
-  //   baseUrl: '/<repo>/',
-  url: 'https://example.com',
-  baseUrl: '/',
+  // Production values for GitHub Pages at https://poos241.github.io/Staff-handbooks/
+  url: 'https://poos241.github.io',
+  baseUrl: '/Staff-handbooks/',
 
-  organizationName: 'example',
-  projectName: 'staff-handbook',
+  organizationName: 'poos241',
+  projectName: 'Staff-handbooks',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
