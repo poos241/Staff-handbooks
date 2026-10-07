@@ -44,6 +44,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
+          editUrl: 'https://github.com/poos241/Staff-handbooks/edit/main/',
         },
         blog: false,
         theme: {
