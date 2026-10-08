@@ -63,6 +63,17 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // Dismissible banner for urgent notices. Edit `content` below to change
+      // the message, or change `id` to make a new message reappear for everyone.
+      // To hide the banner entirely, delete this whole announcementBar block.
+      announcementBar: {
+        id: 'handbook-updates-notice',
+        content:
+          'New here? Check the <a href="/Staff-handbooks/updates/">Handbook Updates</a> page to see what changed recently.',
+        backgroundColor: '#a259f7',
+        textColor: '#ffffff',
+        isCloseable: true,
+      },
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
