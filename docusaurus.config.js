@@ -28,7 +28,7 @@ const config = {
       {
         hashed: true,
         indexDocs: true,
-        indexBlog: false,
+        indexBlog: true,
         docsRouteBasePath: '/',
         highlightSearchTermsOnTargetPage: true,
         searchResultLimits: 8,
@@ -46,7 +46,13 @@ const config = {
           routeBasePath: '/',
           editUrl: 'https://github.com/poos241/Staff-handbooks/edit/main/',
         },
-        blog: false,
+        blog: {
+          routeBasePath: 'updates',
+          blogTitle: 'Handbook Updates',
+          blogDescription: 'Changelog for the staff handbooks — what changed and when.',
+          postsPerPage: 10,
+          showReadingTime: false,
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -72,10 +78,26 @@ const config = {
             position: 'left',
             label: 'Handbooks',
           },
+          { to: '/updates', label: 'Updates', position: 'left' },
         ],
       },
       footer: {
         style: 'dark',
+        links: [
+          {
+            title: 'Contribute',
+            items: [
+              {
+                label: 'Suggest a change',
+                href: 'https://github.com/poos241/Staff-handbooks/issues/new?template=suggest-change.yml',
+              },
+              {
+                label: 'GitHub repository',
+                href: 'https://github.com/poos241/Staff-handbooks',
+              },
+            ],
+          },
+        ],
         copyright: `Staff handbooks — internal use only.`,
       },
       prism: {

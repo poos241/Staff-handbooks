@@ -1,0 +1,41 @@
+name: Suggest a change
+description: Propose an update, fix, or addition to the staff handbooks.
+title: "[Handbook]: "
+labels: ["handbook"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the handbooks accurate! Fill in what you can — a moderator or lead will review this.
+  - type: input
+    id: page
+    attributes:
+      label: Which page is this about?
+      description: Paste the page URL or name, e.g. "Moderation Handbook → Mod Commands".
+      placeholder: "e.g. https://poos241.github.io/Staff-handbooks/moderation/mod-commands/"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What does it say now?
+      description: Quote or describe the current text that's wrong or outdated.
+      placeholder: "The current text says…"
+    validations:
+      required: false
+  - type: textarea
+    id: suggested
+    attributes:
+      label: What should it say instead?
+      description: Your proposed replacement text, or describe the addition.
+      placeholder: "It should say…"
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why is this change needed?
+      description: e.g. rule changed, command renamed, typo, missing step.
+      placeholder: "Because…"
+    validations:
+      required: false

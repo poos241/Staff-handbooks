@@ -31,6 +31,7 @@ const sidebars = {
         'moderation/procedures',
         'moderation/informing-members',
         'moderation/quick-reference',
+        'moderation/onboarding-checklist',
       ],
     },
     {
