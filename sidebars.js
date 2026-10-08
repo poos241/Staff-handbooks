@@ -4,6 +4,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'General Handbook',
+      className: 'accent-general',
       link: { type: 'doc', id: 'general-handbook/index' },
       items: [
         'general-handbook/code-of-conduct',
@@ -14,6 +15,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Server Staff Handbook',
+      className: 'accent-server-staff',
       link: { type: 'doc', id: 'server-staff/index' },
       items: [
         'server-staff/moderator-duties',
@@ -24,12 +26,15 @@ const sidebars = {
     {
       type: 'category',
       label: 'Moderation Handbook',
+      className: 'accent-moderation',
       link: { type: 'doc', id: 'moderation/index' },
       items: [
         'moderation/rules-and-guidelines',
         'moderation/mod-commands',
         'moderation/procedures',
         'moderation/informing-members',
+        'moderation/message-templates',
+        'moderation/channel-directory',
         'moderation/quick-reference',
         'moderation/onboarding-checklist',
       ],
@@ -37,6 +42,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Event Staff Handbook',
+      className: 'accent-event-staff',
       link: { type: 'doc', id: 'event-staff/index' },
       items: [
         'event-staff/host-guide',
@@ -46,6 +52,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Server IT Handbook',
+      className: 'accent-it',
       link: { type: 'doc', id: 'it/index' },
       items: [
         'it/bots-and-tools',

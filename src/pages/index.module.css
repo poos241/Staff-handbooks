@@ -27,6 +27,7 @@
   border-radius: 12px;
   padding: 1.5rem;
   background: var(--ifm-card-background-color);
+  border-top: 4px solid var(--card-accent, var(--ifm-color-primary));
 }
 
 .card h3 {

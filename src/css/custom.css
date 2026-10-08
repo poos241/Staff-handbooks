@@ -1,7 +1,22 @@
 /**
  * Custom styles. Tweak colors here to match your group's branding.
- * TODO: Set your brand colors.
  */
+
+/* ---- Handbook accent colors (sidebar + homepage cards) ---- */
+:root {
+  --accent-general: #38bdf8;
+  --accent-server-staff: #f59e0b;
+  --accent-moderation: #a259f7;
+  --accent-event-staff: #10b981;
+  --accent-it: #94a3b8;
+}
+
+/* Colored marker on each sidebar handbook category */
+li.accent-general > div > a.menu__link { box-shadow: inset 3px 0 0 var(--accent-general); }
+li.accent-server-staff > div > a.menu__link { box-shadow: inset 3px 0 0 var(--accent-server-staff); }
+li.accent-moderation > div > a.menu__link { box-shadow: inset 3px 0 0 var(--accent-moderation); }
+li.accent-event-staff > div > a.menu__link { box-shadow: inset 3px 0 0 var(--accent-event-staff); }
+li.accent-it > div > a.menu__link { box-shadow: inset 3px 0 0 var(--accent-it); }
 
 :root {
   --ifm-color-primary: #a259f7;
