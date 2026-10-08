@@ -8,18 +8,23 @@ sidebar_position: 7
 > Replace every `GUILD_ID` / `CHANNEL_ID` below with the actual IDs
 > (right-click the channel in Discord → Copy Channel ID with Developer Mode on),
 > and adjust the role columns to match your server's roles.
+>
+> The links use Discord's `discord://` deep-link format, so they open directly in
+> the **Discord desktop app** instead of the browser. If someone doesn't have the
+> app installed, the link won't do anything — the browser fallback is the same
+> address with `discord://-/` swapped for `https://discord.com/`.
 
 ## Key channels
 
 | Channel | Purpose | Link |
 |---|---|---|
-| `#mod-commands` | Run all moderation commands here | [Open](https://discord.com/channels/GUILD_ID/CHANNEL_ID) |
-| `#open-a-ticket` | Members open tickets via the button here | [Open](https://discord.com/channels/GUILD_ID/CHANNEL_ID) |
-| `#to-do-list` | Report broken bots / server issues here | [Open](https://discord.com/channels/GUILD_ID/CHANNEL_ID) |
-| `#evidence-for-logs` | Screenshots of punished interactions + user IDs | [Open](https://discord.com/channels/GUILD_ID/CHANNEL_ID) |
-| `#vrc-names` | Tidy off-topic messages as needed | [Open](https://discord.com/channels/GUILD_ID/CHANNEL_ID) |
-| `#introduce-yourself` | Tidy misplaced messages; dedupe with `/scan-introduction-channel` | [Open](https://discord.com/channels/GUILD_ID/CHANNEL_ID) |
-| `#dm-request` | Tidy off-topic messages as needed | [Open](https://discord.com/channels/1318042499784249415/1318143158982414346) |
+| `#mod-commands` | Run all moderation commands here | [Open](discord://-/channels/GUILD_ID/CHANNEL_ID) |
+| `#open-a-ticket` | Members open tickets via the button here | [Open](discord://-/channels/GUILD_ID/CHANNEL_ID) |
+| `#to-do-list` | Report broken bots / server issues here | [Open](discord://-/channels/GUILD_ID/CHANNEL_ID) |
+| `#evidence-for-logs` | Screenshots of punished interactions + user IDs | [Open](discord://-/channels/GUILD_ID/CHANNEL_ID) |
+| `#vrc-names` | Tidy off-topic messages as needed | [Open](discord://-/channels/GUILD_ID/CHANNEL_ID) |
+| `#introduce-yourself` | Tidy misplaced messages; dedupe with `/scan-introduction-channel` | [Open](discord://-/channels/GUILD_ID/CHANNEL_ID) |
+| `#dm-request` | Tidy off-topic messages as needed | [Open](discord://-/channels/GUILD_ID/CHANNEL_ID) |
 
 ## Who can do what
 

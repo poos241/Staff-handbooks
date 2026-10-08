@@ -10,6 +10,7 @@ const sidebars = {
         'general-handbook/code-of-conduct',
         'general-handbook/roles-overview',
         'general-handbook/communication',
+        'general-handbook/posting-updates',
       ],
     },
     {

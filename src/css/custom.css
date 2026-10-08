@@ -40,3 +40,20 @@ li.accent-it > div > a.menu__link { box-shadow: inset 3px 0 0 var(--accent-it); 
   --ifm-color-primary-lightest: #f3e8ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* ---- Handbook Updates (blog) feed polish ---- */
+.blog-list-page article {
+  background: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-top: 4px solid var(--ifm-color-primary);
+  border-radius: 12px;
+  padding: 1.5rem 1.75rem;
+}
+
+.blog-list-page article h2 {
+  margin-top: 0;
+}
+
+.blog-list-page article h2 a {
+  color: var(--ifm-heading-color);
+}

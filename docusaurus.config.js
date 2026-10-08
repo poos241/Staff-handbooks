@@ -52,6 +52,7 @@ const config = {
           blogDescription: 'Changelog for the staff handbooks — what changed and when.',
           postsPerPage: 10,
           showReadingTime: false,
+          editUrl: 'https://github.com/poos241/Staff-handbooks/edit/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -101,6 +102,10 @@ const config = {
               {
                 label: 'Suggest a change',
                 href: 'https://github.com/poos241/Staff-handbooks/issues/new?template=suggest-change.yml',
+              },
+              {
+                label: 'Post a handbook update',
+                href: 'https://github.com/poos241/Staff-handbooks/new/main/blog',
               },
               {
                 label: 'GitHub repository',
