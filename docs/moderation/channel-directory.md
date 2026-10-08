@@ -24,7 +24,7 @@ sidebar_position: 7
 | `#evidence-for-logs` | Screenshots of punished interactions + user IDs | [Open](discord://-/channels/GUILD_ID/CHANNEL_ID) |
 | `#vrc-names` | Tidy off-topic messages as needed | [Open](discord://-/channels/GUILD_ID/CHANNEL_ID) |
 | `#introduce-yourself` | Tidy misplaced messages; dedupe with `/scan-introduction-channel` | [Open](discord://-/channels/GUILD_ID/CHANNEL_ID) |
-| `#dm-request` | Tidy off-topic messages as needed | [Open](discord://-/channels/GUILD_ID/CHANNEL_ID) |
+| `#dm-request` | Tidy off-topic messages as needed | [Open](discord://-/channels/1318042499784249415/1318143158982414346) |
 
 ## Who can do what
 
